@@ -1,0 +1,35 @@
+.fightarea {
+    display: flex;
+    gap: 30px;
+}
+
+#char,
+#monster {
+    flex: 1;
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.log {
+    border: 1px solid #999;
+    border-radius: 20px;
+    height: 200px;
+    overflow-y: scroll;  /* Ativa a barra de rolagem */
+    margin-top: 100px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    margin-top: 8px;
+}
